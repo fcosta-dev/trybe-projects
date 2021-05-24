@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 30px;
+  color: black;
+  margin-top: 115px;
+}
+
+header {
+  height: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(149, 151, 4, 0.911);
+  transition: 0.5s;
+}
+
+em {
+  font-weight: 800;
+}
+
+#cabecalho {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+#cabecalho h1 {
+  text-align: center;
+  color: black;
+}
+
+.nav ul li a {
+  padding: 5px 20px;
+}
+
+#cabecalho ul li a {
+  color: white;
+  transition: 0.3s;
+}
+
+#cabecalho ul li a:hover {
+  color: rgba(160, 124, 24, 0.822);
+  transition: 0.3s;
+}
+
+.container-header {
+  padding: 30px;
+  background-color: rgba(75, 141, 13, 0.938);
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.lado-direito {
+  background-size: cover;
+  background-color: rgb(223, 219, 219);
+  float: right;
+  padding: 20px 25px;
+  height: 760px;
+  width: 25%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 75%;
+  height: 800px;
+  color: black;
+}
+
+.lado-esquerdo li {
+  list-style: none;
+  width: 150px;
+  height: 100px;
+  float: left;
+  line-height: 15px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid green;
+  text-align: center;
+  background-color: rgb(224, 241, 178);
+  color: black;
+  transition: 0.3s;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.lado-esquerdo li:hover {
+  border: 3px solid blue;
+  font-weight: 800;
+  color: black;
+  transition: 0.5s;
+}
+
+.lado-direito article {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lado-direito section {
+  text-align: center;
+}
+
+.container-licoes-1 , .container-licoes-2 {
+  height: 250px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container-licoes-1 h2 , .container-licoes-2 h2 {
+  color: black;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+table , th , td {
+  border: 1px solid black;
+}
+
+th , td {
+  padding: 5px 15px;
+}
+
+table th {
+  background-color: rgb(202, 199, 199);
+}
+
+.tabela {
+  color: black;
+  height: 260px;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.tabela table {
+  color: black;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+.foto {
+  background-image: url('background.png');
+  background-size: 181px;
+  text-align: center;
+  background-position-y: -185px;
+  background-position-x: 85px;
+  padding: 20px;
+  background-color: green;
+}
+
+footer {
+  clear: both;
+  max-width: 90%;
+  text-align: center;
+  font-size: 12px;
+}
